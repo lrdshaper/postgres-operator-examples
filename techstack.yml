@@ -1,0 +1,54 @@
+repo_name: lrdshaper/postgres-operator-examples
+report_id: ee11394391d2060d113910b6dd437041
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-04T09:06:05+00:00'
+requested_by: jmckulk
+provider: github
+branch: main
+detected_tools_count: 4
+tools:
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/lrdshaper/postgres-operator-examples
+  detection_source: Repo Metadata
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/lrdshaper/postgres-operator-examples
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/lrdshaper/postgres-operator-examples
+  detection_source: Repo Metadata
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/lrdshaper/postgres-operator-examples/blob/main/kustomize/monitoring/prometheus/config/prometheus.yml
+  detection_source: kustomize/monitoring/prometheus/config/prometheus.yml
+  last_updated_by: Benjamin Blattberg
+  last_updated_on: 2023-10-02 17:11:47.000000000 Z
